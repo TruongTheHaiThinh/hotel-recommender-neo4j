@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Node.js
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment variables (Bảo mật thông tin quan trọng)
+.env
+
+# Data and Logs
+data/*.csv
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
