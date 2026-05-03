@@ -7,7 +7,10 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-app = FastAPI(title="Hotel Recommendation API")
+app = FastAPI(
+    title="Hotel Recommendation API",
+    docs_url="/docs"
+)
 
 # Configure CORS
 app.add_middleware(
